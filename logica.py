@@ -10,7 +10,7 @@ import datetime
 # Importación de excepciones
 from custom_exceptions import *
 
-# Manejo de archivos sin necesidad de base de datos
+# Manejo de archivos sin necesidad de usar base de datos.
 def registrar_evento(mensaje):
     """ Registra errores y eventos relevantes en un archivo de texto."""
     with open("log_sistema.txt", "a", encoding="utf-8") as f:
